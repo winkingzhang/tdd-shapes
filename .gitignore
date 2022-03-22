@@ -25,24 +25,9 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
-
-# node-waf configuration
-.lock-wscript
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
 # Dependency directories
 node_modules/
 jspm_packages/
-
-# TypeScript v1 declaration files
-typings/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -52,12 +37,6 @@ typings/
 
 # Optional eslint cache
 .eslintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
 
 # Optional REPL history
 .node_repl_history
@@ -88,17 +67,19 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
-.vuepress/dist
+# Ignore Jetbrains IDE project folder
+.idea/
 
-# Serverless directories
-.serverless/
+# Ignore Gradle project-specific cache directory
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 
-# FuseBox cache
-.fusebox/
+# Ignore Gradle build output directory
+build
 
-# DynamoDB Local files
-.dynamodb/
+# Ignore Visual Studio folder
+[Bb]in/
+[Oo]bj/
 
-# TernJS port file
-.tern-port
+.vs/

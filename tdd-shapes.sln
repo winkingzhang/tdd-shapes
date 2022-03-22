@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{59B04E6A-73BF-45F8-AEB7-415AF1ADCC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd.shapes", "dotnet\tdd.shapes\tdd.shapes.csproj", "{0F720403-E1AF-46FE-9C64-43F52E904908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd.shapes.tests", "dotnet\tdd.shapes.tests\tdd.shapes.tests.csproj", "{33224E9F-9DC2-4A98-AB01-43CBEFC1FBA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F720403-E1AF-46FE-9C64-43F52E904908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F720403-E1AF-46FE-9C64-43F52E904908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F720403-E1AF-46FE-9C64-43F52E904908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F720403-E1AF-46FE-9C64-43F52E904908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33224E9F-9DC2-4A98-AB01-43CBEFC1FBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33224E9F-9DC2-4A98-AB01-43CBEFC1FBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33224E9F-9DC2-4A98-AB01-43CBEFC1FBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33224E9F-9DC2-4A98-AB01-43CBEFC1FBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F720403-E1AF-46FE-9C64-43F52E904908} = {59B04E6A-73BF-45F8-AEB7-415AF1ADCC76}
+		{33224E9F-9DC2-4A98-AB01-43CBEFC1FBA1} = {59B04E6A-73BF-45F8-AEB7-415AF1ADCC76}
+	EndGlobalSection
+EndGlobal

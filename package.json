@@ -1,0 +1,35 @@
+{
+  "name": "tdd-shapes",
+  "version": "1.0.0",
+  "description": "TDD Shapes exercise",
+  "main": "index.js",
+  "engines": {
+    "node": "^14.18",
+    "npm": "^6.14"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "watch": "npx jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winkingzhang/tdd-shapes.git"
+  },
+  "keywords": [
+    "TDD",
+    "kotlin",
+    "typescript"
+  ],
+  "author": "Zhang Wenqing",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/winkingzhang/tdd-shapes/issues"
+  },
+  "homepage": "https://github.com/winkingzhang/tdd-shapes#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
