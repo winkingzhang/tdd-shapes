@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.com.intellij.openapi.projectRoots.JavaSdkVersion
-import org.jetbrains.kotlin.ir.backend.js.compile
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -7,7 +5,7 @@ repositories {
 }
 
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.8.21"
 }
 
 dependencies {
@@ -18,7 +16,8 @@ dependencies {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 kotlin {
