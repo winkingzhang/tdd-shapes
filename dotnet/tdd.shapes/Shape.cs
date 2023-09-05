@@ -1,4 +1,4 @@
-﻿namespace tdd.shapes;
+namespace tdd.shapes;
 
 public class Shape
 {

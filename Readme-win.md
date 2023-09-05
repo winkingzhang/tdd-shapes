@@ -34,8 +34,8 @@ tdd-shapes> dotnet test
 
 First, you will need:
 
-- Java 11 or later
-  - `choco install openjdk11 -y`
+- Java 17 or later
+  - `choco install openjdk17 -y`
 - A Java IDE (like IntelliJ)
   - `choco install intellijidea-community -y`
 - gradle
@@ -52,7 +52,7 @@ tdd-shapes>  gradle build
 First, you will need:
 
 - Node.js 14 or newer
-  - `choco install nodejs-lts --version=14.19.1 -y`
+  - `choco install nodejs-lts --version=18.17.1 -y`
 - A Javascript IDE (like Visual Studio Code)
   - `choco install vscode -y`
 

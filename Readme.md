@@ -28,7 +28,7 @@ tdd-shapes$ dotnet test
 First, you will need:
 
 - Java 11 or later
-  - `brew install openjdk-11`
+  - `brew install openjdk-17`
 - A Java IDE (like IntelliJ)
   - `brew install --cask intellij-idea-ce`
 - gradle
@@ -44,8 +44,8 @@ tdd-shapes$ gradle build
 
 First, you will need:
 
-- Node.js 14 or newer
-  - `brew install node@14`
+- Node.js 18 or newer
+  - `brew install node@18`
 - A Javascript IDE (like Visual Studio Code)
   - `brew install --cask visual-studio-code`
 

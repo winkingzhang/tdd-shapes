@@ -5,20 +5,17 @@ repositories {
 }
 
 plugins {
-    kotlin("jvm") version "1.8.21"
+    kotlin("jvm") version "1.9.10" // Kotlin version to use
 }
 
 dependencies {
+    testImplementation(kotlin("test")) // The Kotlin test library
     testImplementation ("org.junit.jupiter:junit-jupiter-api:5.9.2")
     testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine:5.9.2")
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
-}
-
 kotlin {
+    jvmToolchain(17) // Target version of generated JVM bytecode.
     sourceSets {
         main {
             kotlin.srcDirs("kotlin/main")

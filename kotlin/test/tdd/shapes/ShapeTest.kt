@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test
 
 class ShapeTest {
     private val shape = Shape()
+
     @Test
     fun areaThrowsNotImplementedException() {
         assertThrows(UnsupportedOperationException::class.java) { shape.area() }
