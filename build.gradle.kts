@@ -11,7 +11,7 @@ plugins {
 dependencies {
     testImplementation(kotlin("test")) // The Kotlin test library
     testImplementation ("org.junit.jupiter:junit-jupiter-api:5.9.2")
-    testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine:5.9.2")
+    testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine:5.10.1")
 }
 
 kotlin {
