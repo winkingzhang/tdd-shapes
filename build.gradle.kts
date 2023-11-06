@@ -5,7 +5,7 @@ repositories {
 }
 
 plugins {
-    kotlin("jvm") version "1.9.10" // Kotlin version to use
+    kotlin("jvm") version "1.9.20" // Kotlin version to use
 }
 
 dependencies {
